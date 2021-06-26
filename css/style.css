@@ -393,7 +393,7 @@ flex-wrap: wrap;
    padding-top: 15px;
   }
 
-  input {
+  .sub__input {
       border: none;
       padding: 15px 50px;
       background: #E1E1E1;
@@ -499,8 +499,32 @@ flex-wrap: wrap;
 }
 
 .catalog__filter {
-    display: flex;
+    width: 360px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    position: relative;
+    outline: none;
+    border: none;   
 }
+
+.catalog__filter[open] {
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.catalog__filter[open]>summary {
+  color: #EF5B70;
+  outline: none;
+  border: none;
+}
+
+.filter__content {
+  position: absolute;
+  width: 360px;
+  left: 0;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  background-color: #FFFFFF;
+}
+
 
 .catalog__img {
     padding-left: 10px;
@@ -669,4 +693,7 @@ hr {
     height: 1px;
     border: none;
 }
+
+
+
 

@@ -32,8 +32,8 @@
                 <div class="header__item">
                     <img src="img/user.svg" alt="logo">
                 </div>
-                <div class="header__item">
-                    <img src="img/cart.svg" alt="logo">
+                <div class="header__item"><a href="cart.html"><img src="img/cart.svg" alt="logo"></a>
+                </div>
                 </div>
             </section>
         </section>
@@ -55,6 +55,28 @@
             <details class="catalog__filter">
                 <summary class="filter__text">FILTER<img class="catalog__img" src="/img/filter.svg" alt="filter">
                 </summary>
+                <div class="filter__content">
+                    <details class="filter__category">
+                        <summary>CATEGORY</summary>
+                        <ul>Accessories</ul>
+                        <ul>Bags</ul>
+                        <ul>Denim</ul>
+                        <ul>Hoodies & Sweatshirts</ul>
+                        <ul>Jackets & Coats</ul>
+                        <ul>Polos</ul>
+                        <ul>Shirts</ul>
+                        <ul>Shoes</ul>
+                        <ul>Sweaters & Knits</ul>
+                        <ul>T-Shirts</ul>
+                        <ul>Tanks</ul>
+                    </details>
+                    <details class="filter__brand">
+                        <summary>BRAND</summary>
+                    </details>
+                    <details class="filter__designer">
+                        <summary>DESIGNER</summary>
+                    </details>
+                </div>
             </details>
             <div class="catalog__center">
                 <details>
@@ -245,7 +267,9 @@
                     <h2 class="subscribe_header">SUBSCRIBE</h2>
                     <p class="subscribe__right__text">FOR OUR NEWSLETTER AND PROMOTION</p>
                     <form method="POST" action="">
-                        <div class="sub__wrap"><input placeholder="Enter Your Email" type="email">
+                        <div class="sub__wrap">
+
+                            <input class="sub__input" placeholder="Enter Your Email" type="email">
                             <button class="sub__button">Subscribe</button>
                         </div>
                     </form>

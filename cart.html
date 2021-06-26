@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="https://kit.fontawesome.com/4e37335e6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <section class="container header__wrap">
+            <section class="header__left">
+                <a class="header__logo" href="/">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <a href="/">
+                    <img src="img/search.svg" alt="search">
+                </a>
+            </section>
+            <section class="header__right">
+                <div class="header__item">
+                    <img class="menu__svg" src="img/menu.svg" alt="logo">
+                </div>
+                <div class="header__item">
+                    <img src="img/user.svg" alt="logo">
+                </div>
+                <div class="header__item"><a href="cart.html"><img src="img/cart.svg" alt="logo"></a>
+                </div>
+
+            </section>
+        </section>
+    </header>
+    <section class="arrivals">
+        <section class="container arrivals__wrap">
+            <section class="arrivals__left">
+                <h1 class="arrivals__header">SHOPPING CART</h1>
+            </section>
+
+        </section>
+    </section>
+    <main>
+        <section class="cart container">
+            <div class="cart__list">
+                <figure class="cart__product">
+                    <img src="img/catalog_3.jpg" alt="">
+                    <figcaption class="cart__figcaption">
+                        <h3 class="cart__header">MANGO PEOPLE T-SHIRT</h3>
+                        <img class="cart__cross" src="img/cross.svg" alt="">
+                        <div class="cart__ul">
+                            <ul>Price: <strong class="cart__cost">$300</strong> </ul>
+                            <ul>Color: Red</ul>
+                            <ul>Size: Xl </ul>
+                            <ul>Quantity: <input class="cart__quantity" type="number"></ul>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="cart__product">
+                    <img src="img/catalog_2.jpg" alt="">
+                    <figcaption class="cart__figcaption">
+                        <h3 class="cart__header">MANGO PEOPLE T-SHIRT</h3>
+                        <img class="cart__cross" src="img/cross.svg" alt="">
+                        <div class="cart__ul">
+                            <ul>Price: <strong class="cart__cost">$300</strong> </ul>
+                            <ul>Color: Red</ul>
+                            <ul>Size: Xl </ul>
+                            <ul>Quantity: <input class="cart__quantity" type="number"></ul>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <div class="cart__buttons">
+                    <button class="cart__button">CLEAR SHOPPING CART</button>
+                    <button class="cart__button">CONTINUE SHOPPING</button>
+                </div>
+            </div>
+            <div class="cart__right">
+                <h3 class="cart__adress">SHIPPING ADRESS</h3>
+                <form class="cart__form" action="#">
+                    <input class="cart__field" type="text" placeholder="Bangladesh">
+                    <input class="cart__field" type="text" placeholder="State">
+                    <input class="cart__field" type="text" placeholder="Postcode / Zip">
+                </form>
+
+                <button class="cart__button">GET QUOTE</button>
+
+                <div class="cart__total">
+                    <div class="cart__accept">
+                        <p class="cart__sub">SUB TOTAL <strong class="cart__decor">$900</strong></p>
+                        <p class="cart__grand">GRAND TOTAL <strong class="cart__decor">$900</strong></p>
+                    </div>
+
+                    <hr>
+
+                    <div class="cart__buy">
+                        <button class="cart__checkout">PROCEED TO CHECKOUT</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="subscribe">
+            <div class="container subscribe_wrap">
+                <div class="subscribe__left">
+                    <img class="subscribe__img" src="img/subscribe.png" alt="sub">
+                    <p class="subscribe__left__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span
+                            class="italic"> a
+                            pulvinar purus
+                            condimentum“</span></p>
+                </div>
+                <div class="subscribe__right">
+                    <h2 class="subscribe_header">SUBSCRIBE</h2>
+                    <p class="subscribe__right__text">FOR OUR NEWSLETTER AND PROMOTION</p>
+                    <form method="POST" action="">
+                        <div class="sub__wrap"><input class="sub__input" placeholder="Enter Your Email" type="email">
+                            <button class="sub__button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="copyright ">
+            <div class="container copyright__wrap">
+                <div class="copyright__left">
+                    <p class="copyright__text">© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="copyright__right">
+                    <img src="/img/facebook.svg" alt="">
+                    <img src="/img/instagram.svg" alt="">
+                    <img src="/img/pinterest.svg" alt="">
+                    <img src="/img/twitter.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</body>
+
+
+
+</html>
