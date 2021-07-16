@@ -1,0 +1,132 @@
+.checkout {
+  margin-top: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.checkout__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.checkout__field {
+  text-align: left;
+  width: 360px;
+  padding: 13px 0 16px 18px;
+  margin-bottom: 20px;
+  border: 1px solid #A4A4A4;
+}
+
+.checkout__button {
+  background: #F16D7F;
+  border: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 15px 40px;
+  margin-bottom: 100px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.checkout__button:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.checkout__header {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  padding-bottom: 20px;
+}
+
+.checkout__gender {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.checkout__gender:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.checkout__gender_text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.checkout__left_text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  padding-bottom: 40px;
+  width: 360px;
+}
+
+.checkout__right {
+  padding-left: 130px;
+}
+
+.checkout__right_header {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-bottom: 22px;
+}
+
+.checkout__right_text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 20px;
+}
+
+.checkout__list {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding-bottom: 16px;
+}
+
+.checkout__check {
+  padding-right: 22px;
+}
+/*# sourceMappingURL=checkout.css.map */
